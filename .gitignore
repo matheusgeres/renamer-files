@@ -88,4 +88,7 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
+# IntelliJ Project
+.idea
+
 # End of https://www.gitignore.io/api/node

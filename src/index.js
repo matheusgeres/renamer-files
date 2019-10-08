@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const path = '/media/matheus/1CB03CB2B03C946C/Users/mathe/Desktop/Pregacoes/Achados e Perdidos'
+const path = '/home/matheus/Downloads/pregacao'
 fs.readdir(path, (err, files) => {
     files.forEach(file => {
         let filePath = path + "/" + file
@@ -13,10 +13,10 @@ fs.readdir(path, (err, files) => {
 
         let restFilename = replaceAccents(file.substring(8, file.length)
             .replace(regex, "_")
+            .replace("__", "_")
+            .replace("__", "_")
+            .replace("__", "_")
             .replace("_.mp3", ".mp3")
-            .replace("__", "_")
-            .replace("__", "_")
-            .replace("__", "_")
         )
 
         let newFileName = year + month + day + restFilename
