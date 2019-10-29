@@ -1,6 +1,19 @@
 const fs = require('fs');
 
-const path = '/home/matheus/Downloads/pregacao'
+var args = process.argv.slice(2);
+if(args.length==0){
+    console.log("You have to pass a folder to read. Try again, please! :D");
+    return;
+}
+// let path = '/home/matheus/Downloads/pregacao'
+let path = args[0];
+let pathExist = fs.existsSync(path);
+
+if(!pathExist){
+    console.log("Folder not exists! :( \nTry again with valid folder. ;)");
+    return;
+}
+
 fs.readdir(path, (err, files) => {
     files.forEach(file => {
         let filePath = path + "/" + file

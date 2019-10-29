@@ -15,5 +15,14 @@
   "license": "MIT",
   "dependencies": {
     "fs": "0.0.1-security"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusgeres/renamer-files.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matheusgeres/renamer-files/issues"
+  },
+  "homepage": "https://github.com/matheusgeres/renamer-files#readme"
 }
