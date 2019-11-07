@@ -1,5 +1,5 @@
 {
-  "name": "renamer-files",
+  "name": "renamer-file",
   "version": "1.0.0",
   "description": "Renamer of files",
   "main": "src/index.js",
@@ -13,6 +13,9 @@
   ],
   "author": "matheusgeres",
   "license": "MIT",
+  "bin": {
+    "renamer-files": "./bin/renamer-files"
+  },
   "dependencies": {
     "fs": "0.0.1-security"
   },
