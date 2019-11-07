@@ -2,7 +2,7 @@
   "name": "renamer-files",
   "version": "1.0.0",
   "description": "Renamer of files",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,14 @@
   "license": "MIT",
   "dependencies": {
     "fs": "0.0.1-security"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusgeres/renamer-files.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matheusgeres/renamer-files/issues"
+  },
+  "homepage": "https://github.com/matheusgeres/renamer-files#readme"
 }
